@@ -67,11 +67,21 @@ Run `build-windows-app.bat` once on a PC with JDK 17+ and Maven. It creates an
 EXE app image under `target\app`, so you can launch the app without Maven afterwards.
 
 ## Demo Login
-Demo credentials are created from the seed data on first run. Add your admin and
-employee usernames here, and change them before any real use.
 
-Sample data: employee Arun has an active ₹12,000 loan with a ₹1,000 monthly EMI
-starting November 2026. Employee Priya has no loan.
+Use these accounts to try the app after starting it at http://localhost:8080.
+
+| Role     | Username | Password   |
+|----------|----------|------------|
+| Admin    | `admin`  | `admin123` |
+| Employee | `priya`  | `emp123`   |
+| Employee | `arun`   | `emp123`   |
+
+**Sample data:**
+- **Arun** has an active ₹12,000 loan with a ₹1,000 monthly EMI starting November 2026.
+- **Priya** has no loan. Log in as her and apply for one to test the approval workflow.
+
+> These are demo credentials for learning and testing only. Change them before
+> using the app with any real data.
 
 ## Project Structure
 
